@@ -25,7 +25,12 @@ de loas URL que contengan los archivos de formato MarkDown .
 Instalar la [libreria](https://www.npmjs.com/~lucerogoga) via npm i md-links
 
 ## 3. Guia de Uso
+A través de la terminal:
 
+HELP OPTION : md-bearlinks --help o md-bearlinks --h.
+
+
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="800">
 
 
 ## 4. Diagramas
@@ -47,7 +52,7 @@ Instalar la [libreria](https://www.npmjs.com/~lucerogoga) via npm i md-links
 
 ## 7. Autora
 
-[Lucerogoga: ](https://github.com/lucerogoga) 
+[Lucerogoga](https://github.com/lucerogoga) :bear:
 
 ## 8. Checklist
 
