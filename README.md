@@ -32,15 +32,19 @@ STATS OPTION : md-bearlinks --stats o md-bearlinks --s.
 MANEJANDO ERRORES
 
 Ruta no existe
+
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error1.png" title ="help" width="700">
 Directorio vacio
+
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error2.png" title ="help" width="700">
 No es archivo MD
+
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error3.png" title ="help" width="700">
 
 ## 4. Diagramas
 
 Diagrama API
+
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/API-diagram.jpg" title ="help" width="700">
 
 Diagrama CLI
