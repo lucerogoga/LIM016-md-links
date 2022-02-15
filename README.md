@@ -15,24 +15,38 @@ Instalar la [libreria](https://www.npmjs.com/package/md-bearlinks) via npm i md-
 A través de la terminal:
 
 HELP OPTION : md-bearlinks --help o md-bearlinks --h.
-
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
 
-VALIDATE OPTION : md-bearlinks --help o md-bearlinks --v.
+WITHOUT OPTIONS : md-bearlinks --validate o md-bearlinks --v.
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateFalse.png" title ="help" width="700">
 
-<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
+VALIDATE OPTION : md-bearlinks --validate o md-bearlinks --v.
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateTrue.png" title ="help" width="700">
 
-<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
+VALIDATE & STATS OPTION : md-bearlinks --validate --stats o md-bearlinks --v --s.
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/statsValidate.png" title ="help" width="700">
 
-<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
+STATS OPTION : md-bearlinks --stats o md-bearlinks --s.
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/stats.png" title ="help" width="700">
 
+MANEJANDO ERRORES
 
-
+Ruta no existe
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error1.png" title ="help" width="700">
+Directorio vacio
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error2.png" title ="help" width="700">
+No es archivo MD
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/error3.png" title ="help" width="700">
 
 ## 4. Diagramas
 
-[Diagrama API](https://www.npmjs.com/~lucerogoga)
-[Diagrama CLI](https://www.npmjs.com/~lucerogoga)
+Diagrama API
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/API-diagram.jpg" title ="help" width="700">
+
+Diagrama CLI
+
+<img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/CLI-diagram.jpg" title ="help" width="700">
+
 
 ## 5. Dependencias Utilizadas
    
@@ -59,7 +73,7 @@ VALIDATE OPTION : md-bearlinks --help o md-bearlinks --v.
 ### `README.md`
 
 * [ :bear:] Un board con el backlog para la implementación de la librería.
-* [:bear: ] Documentación técnica de la librería.
+* [ :bear: ] Documentación técnica de la librería.
 * [ :bear:] Guía de uso e instalación de la librería
 
 ### API `mdLinks(path, opts)`
@@ -72,12 +86,12 @@ VALIDATE OPTION : md-bearlinks --help o md-bearlinks --v.
 ### CLI
 
 * [ :bear:] Expone ejecutable `md-links` en el path (configurado en `package.json`)
-* [:bear: ] Se ejecuta sin errores / output esperado
+* [ :bear: ] Se ejecuta sin errores / output esperado
 * [ :bear:] Implementa `--validate`
 * [ :bear:] Implementa `--stats`
 
 ### Pruebas / tests
 
-* [:bear: ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
+* [ :bear: ] Pruebas unitarias cubren un mínimo del 70% de statements, functions,
   lines, y branches.
 * [ :bear:] Pasa tests (y linters) (`npm test`).
