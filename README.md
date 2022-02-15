@@ -9,7 +9,7 @@ de loas URL que contengan los archivos de formato MarkDown .
 
 ## 2. Link de instalacion
 
-Instalar la [libreria](https://www.npmjs.com/package/md-bearl-inks) via npm i md-links
+Instalar la [libreria](https://www.npmjs.com/package/md-bear-links) via npm i md-links
 
 ## 3. Guia de Uso
 A través de la terminal:
