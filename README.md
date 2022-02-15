@@ -1,6 +1,6 @@
 # Markdown Links
 
-## 1. MD-BEARL-INKS
+## 1. MD-BEAR-LINKS
 
 :bear: md-bear-links es una libreria de linea de comando CLI el cual permite indentificar, validar y dar estadisticas
 de loas URL que contengan los archivos de formato MarkDown .
