@@ -1,32 +1,32 @@
 # Markdown Links
 
-## 1. MD-BEARLINKS
+## 1. MD-BEARL-INKS
 
-:bear: md-bearlinks es una libreria de linea de comando CLI el cual permite indentificar, validar y dar estadisticas
+:bear: md-bear-links es una libreria de linea de comando CLI el cual permite indentificar, validar y dar estadisticas
 de loas URL que contengan los archivos de formato MarkDown .
 
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/mdlinks.png" title ="mdlinks" width="700">
 
 ## 2. Link de instalacion
 
-Instalar la [libreria](https://www.npmjs.com/package/md-bearlinks) via npm i md-links
+Instalar la [libreria](https://www.npmjs.com/package/md-bearl-inks) via npm i md-links
 
 ## 3. Guia de Uso
 A través de la terminal:
 
-HELP OPTION : md-bearlinks --help o md-bearlinks --h.
+HELP OPTION : md-bear-links --help o md-bear-links --h.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
 
-WITHOUT OPTIONS : md-bearlinks --validate o md-bearlinks --v.
+WITHOUT OPTIONS : md-bear-links --validate o md-bear-links --v.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateFalse.png" title ="help" width="700">
 
-VALIDATE OPTION : md-bearlinks --validate o md-bearlinks --v.
+VALIDATE OPTION : md-bear-links --validate o md-bear-links --v.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateTrue.png" title ="help" width="700">
 
-VALIDATE & STATS OPTION : md-bearlinks --validate --stats o md-bearlinks --v --s.
+VALIDATE & STATS OPTION : md-bear-links --validate --stats o md-bear-links --v --s.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/statsValidate.png" title ="help" width="700">
 
-STATS OPTION : md-bearlinks --stats o md-bearlinks --s.
+STATS OPTION : md-bear-links --stats o md-bear-links --s.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/stats.png" title ="help" width="700">
 
 MANEJANDO ERRORES
