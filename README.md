@@ -14,19 +14,19 @@ Instalar la [libreria](https://www.npmjs.com/package/md-bear-links) via npm i md
 ## 3. Guia de Uso
 A través de la terminal:
 
-HELP OPTION : md-bear-links --help o md-bear-links --h.
+HELP OPTION : md-inks --help o md-links --h.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/help.png" title ="help" width="700">
 
-WITHOUT OPTIONS : md-bear-links --validate o md-bear-links --v.
+WITHOUT OPTIONS : md-links --validate o md-links --v.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateFalse.png" title ="help" width="700">
 
-VALIDATE OPTION : md-bear-links --validate o md-bear-links --v.
+VALIDATE OPTION : md-links --validate o md-links --v.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/validateTrue.png" title ="help" width="700">
 
-VALIDATE & STATS OPTION : md-bear-links --validate --stats o md-bear-links --v --s.
+VALIDATE & STATS OPTION : md-links --validate --stats o md-links --v --s.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/statsValidate.png" title ="help" width="700">
 
-STATS OPTION : md-bear-links --stats o md-bear-links --s.
+STATS OPTION : md-links --stats o md-links --s.
 <img src="https://github.com/lucerogoga/LIM016-md-links/blob/main/images/stats.png" title ="help" width="700">
 
 MANEJANDO ERRORES

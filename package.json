@@ -23,7 +23,8 @@
     "md-links": "./src/cli.js"
   },
   "scripts": {
-    "test": "jest --coverage --watch"
+    "test": "jest --coverage --watchAll",
+    "dev":"nodemon --exec node src/api.js"
   },
   "devDependencies": {
     "jest": "^27.4.7",

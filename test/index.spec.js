@@ -16,6 +16,7 @@ describe('mdLinks', () => {
     api.ExistPath.mockReturnValue(true)
     api.listLinks.mockResolvedValue([{"file": "/Users/lucero/Projectos/LIM016-md-links/test/test-folder/archivo.md", "href": "https://nodejs.org/es/", "text": "Node.js"}])
     api.validateLinks.mockResolvedValue([{"file": "/Users/lucero/Projectos/LIM016-md-links/test/test-folder/archivo.md", "href": "https://nodejs.org/es/", "message": "OK", "status": 200, "text": "Node.js"}])
+    api.validateLinks.mockRejectedValue(new Error('error'))
     let arrayObject = [{
       href: 'https://nodejs.org/es/',
       text: 'Node.js',
@@ -27,6 +28,9 @@ describe('mdLinks', () => {
 
     mdlinks(path, option).then((res) => {
       expect(res).toEqual(arrayObject)
+    })
+    .catch((err) => {
+      expect(err).toEqual(new Error('error'))
     })
   });
 
@@ -98,9 +102,7 @@ describe('mdLinks', () => {
     }]
 
 
-    mdlinks(path, option).then((res) => {
-      expect(res).toEqual(arrayObject)
-    }).catch(err => {
+    mdlinks(path, option).catch(err => {
       expect(err).toEqual(new Error('The path doesnt exist'))
     })
   });

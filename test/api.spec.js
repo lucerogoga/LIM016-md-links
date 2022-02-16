@@ -37,7 +37,7 @@ describe('ListFilesMD Function', () => {
   it('should return an error if folder is empty', () => {
     expect.assertions(1);
     return api.listFilesMD('test/test-folder/directoriovacio').catch(e =>
-      expect(e).toEqual(new Error("theres no files in this directory")),
+      expect(e).toEqual(new Error("theres no files MD in this directory")),
     );
   });
   it('should return an error if folder is not MD ', () => {
