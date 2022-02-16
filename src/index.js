@@ -1,4 +1,4 @@
-const api = require("./api.js");
+const api = require('./api.js');
 
 const mdLinks = (path, option) => {
   return new Promise((res, rej) => {
@@ -14,7 +14,7 @@ const mdLinks = (path, option) => {
         .catch((error) => rej(error))
       }
     } else {
-      rej(new Error("The path doesnt exist"));
+      rej(new Error('The path doesnt exist'));
     }
   })
 };

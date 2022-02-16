@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const MarkdownIt = require('markdown-it');
-md = new MarkdownIt();
-const jsdom = require("jsdom");
+const md = new MarkdownIt();
+const jsdom = require('jsdom');
 const {
   JSDOM
 } = jsdom;

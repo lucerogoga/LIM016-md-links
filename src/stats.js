@@ -1,10 +1,10 @@
 const totalLinks = (links) => {
-  total = links.length
+  const total = links.length
   return total
 }
 
 const unique = (links) => {
-  visitados = {}
+ const visitados = {}
   links.forEach(elem => {
     if (visitados[elem.href]) {
       visitados[elem.href] += 1

@@ -9,16 +9,16 @@ const argv =
   yargs
   .options({
     validate: {
-      type: "boolean",
-      alias: "v",
+      type: 'boolean',
+      alias: 'v',
       name: 'validate',
       describe: 'validate links'
     },
     stats: {
-      type: "boolean",
-      alias: "s",
+      type: 'boolean',
+      alias: 's',
       name: 'stats',
-      describe: "give stats about links"
+      describe: 'give stats about links'
     }
   })
   .strictOptions(true)

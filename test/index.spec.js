@@ -1,3 +1,4 @@
+/* eslint-disable */
 const mdlinks = require('../src/index')
 const api = require('../src/api.js')
 

@@ -35,6 +35,7 @@ const mdlinksCompletedValidate = (links) => {
       '\n┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼┼'
     ))
     links.map((link) => {
+      let estado
       if (link.message == 'OK') {
         estado = chalk.greenBright(link.message)
       } else {

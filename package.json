@@ -24,7 +24,8 @@
   },
   "scripts": {
     "test": "jest --coverage --watchAll",
-    "dev":"nodemon --exec node src/api.js"
+    "dev": "nodemon --exec node src/api.js",
+    "lint": "eslint .  --ext .js"
   },
   "devDependencies": {
     "jest": "^27.4.7",
